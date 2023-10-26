@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+import "../styles/styles.css";
+import { Navbar } from "../components/Navbar.jsx";
+import { Footer } from "../components/Footer.jsx";
+import { Content } from "../md/tos.md";
+---
+
+<Layout title="ToS - DPDzero">
+  <Navbar
+    gradientBg={true}
+    pageHeader={{
+      title: "Terms of service",
+      subtitle: "Last updated: July 2023",
+    }}
+    client:load
+  />
+  <div class="flex items-center justify-center px-4 bg-gray-100 py-10">
+    <div class="max-w-3xl prose prose-blue">
+      <Content />
+    </div>
+  </div>
+  <Footer />
+</Layout>

@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+import "../styles/styles.css";
+import { Navbar } from "../components/Navbar.jsx";
+import { Footer } from "../components/Footer.jsx";
+
+let res = await fetch(
+  "https://blog-wordpress.dpdzero.com/wp-json/wp/v2/posts?categories=3"
+);
+let posts = await res.json();
+---
+
+<Layout title="DPDzero blogs">
+  <Navbar gradientBg={true} pageHeader={null} client:load />
+  <div class="flex items-center justify-center px-4 bg-gray-100 py-10">
+    <div class="max-w-3xl prose prose-blue">
+      <h1>DPDzero blogs</h1>
+      <section>
+        {
+          posts.map((post) => (
+            <article>
+              <h2>
+                <a
+                  href={`/blogs/${post.slug}`}
+                  set:html={post.title.rendered}
+                />
+              </h2>
+            </article>
+          ))
+        }
+      </section>
+    </div>
+  </div>
+  <Footer />
+</Layout>

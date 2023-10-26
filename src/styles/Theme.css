@@ -1,0 +1,63 @@
+/* Typography */
+
+.custom-block-title {
+  @apply text-green-500 text-3xl font-bold tracking-normal;
+}
+.custom-block-big-title {
+  @apply text-green-500 text-4xl xl:text-5xl font-bold tracking-normal;
+}
+.custom-block-subtitle {
+  @apply text-xs text-green-500  tracking-wider font-bold uppercase;
+}
+.custom-content-title {
+  @apply text-green-500 text-lg font-bold tracking-normal;
+}
+.custom-content-text-white {
+  @apply text-white text-base leading-relaxed;
+}
+.custom-content-text-gray {
+  @apply text-green-400 text-base;
+}
+
+/* Backgrounds */
+
+.custom-bg-dark1 {
+  @apply  bg-white  fill-white;
+}
+.custom-bg-dark2 {
+  @apply  bg-white fill-white;
+}
+.custom-bg-dark3 {
+  @apply  bg-white  fill-white;
+}
+body,
+html {
+  @apply bg-white;
+}
+
+
+/* Borders */
+
+.custom-border-gray {
+  @apply border border-solid border-[rgb(255,255,255,0.15)];
+}
+.custom-border-gray-darker {
+  @apply border border-solid border-[rgb(255,255,255,0.07)];
+}
+
+/* Buttons */
+
+.custom-button-colored {
+  @apply rounded-lg font-bold bg-customPrimary text-white flex justify-center items-center hover:bg-[#7274f3] cursor-pointer transition;
+}
+
+/* Navbar */
+
+.navbar-link {
+  @apply   cursor-pointer transition duration-300 h-full pt-2;
+}
+
+/* Preventing FOUC */
+@font-face {
+  font-display: var(--fontsource-Inter-font-display, optional);
+}

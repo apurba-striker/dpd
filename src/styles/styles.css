@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;900&family=Red+Hat+Text:wght@400;500;600;700;900&display=swap');
+
+.h2-mobile {
+    color: #210076;
+    font-family: Red Hat Text;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: normal;
+}
+
+.h2-custom {
+    color: #210076;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.text-custom {
+color: #081114CC;
+font-family: Red Hat Text;
+font-size: 24px;
+font-style: normal;
+font-weight: 400 !important;
+line-height: normal;
+}
+
+.stats-header {
+color: #08CA97;
+font-family: Red Hat Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; /* 100% */
+letter-spacing: 1.92px;
+}
+
+.stats-footer {
+    color: rgba(8, 17, 20, 0.50);
+font-family: Red Hat Text;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.title-mobile-custom {
+    color: #210076;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+@media only screen and (min-width: 48em) {
+.hero-heading {
+    color: #210076;
+font-family: Red Hat Display;
+font-size: 56px !important;
+font-style: normal;
+font-weight: 700;
+line-height: normal !important;
+letter-spacing: 1.68px !important;
+}
+
+.hero-color {
+    color: linear-gradient(94deg, #675AF9 59.7%, #08CA97 85.85%) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Red Hat Display;
+    font-size: 56px  !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal !important;
+    letter-spacing: 1.68px !important;
+} 
+.hero-subtitle {
+color: rgba(33, 0, 118, 0.70);
+text-align: center;
+font-family: Red Hat Text;
+font-size: 26px !important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+}
+
+.hero-mobile-heading {
+color: #210076;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 160% */
+letter-spacing: 1.2px;
+}
+
+
+.hero-mobile-color {
+background: linear-gradient(70deg, #675AF9 6.26%, #08CA97 48.97%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Red Hat Display;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 1.2px;
+}
+
+
+
+.hero-mobile-subtitle {
+    color: rgba(8, 17, 20, 0.50);
+    text-align: center;
+    font-family: Red Hat Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.schedule-button {
+    color: #F8F7F2;
+    text-align: center;
+    font-family: Red Hat Text; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+height: 60px;
+padding: 10px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #675AF9;
+}
+
+.brands-title {
+    color: #210076;
+    text-align: center;
+    font-family: Red Hat Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;;
+}
+
+.testimonials-text {
+    color: #081114;
+font-family: Red Hat Text;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.testimonials-name {
+    color: #081114;
+font-family: Red Hat Text;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.testimonials-block {
+    border-radius: 0px 0px 64px 0px;
+    border: 2px solid rgba(33, 0, 118, 0.20);
+    background: #FFF;
+    box-shadow: 8px 8px 0px 0px #8D83FF;
+}
+
+.testimonials-position {
+    color: #081114;
+    font-family: Red Hat Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimonials-head {
+    color: #210076;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media only screen and (min-width: 48em) {
+.end-block-font {
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 56px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.12px !important;
+}
+}
+
+.end-block-button {
+    color: #5CAAFA;
+text-align: center;
+font-family: Red Hat Text;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px; /* 131.25% */
+}
+
+.end-block-font-mobile {
+    color: #FFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.8px;
+}
+
+.swiper-slide{
+    width: fit-content;
+   }
+
+.navbar-button-text {
+    color: #210076;
+font-family: Red Hat Text;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.navbar-button-2 {
+    color: #F8F7F2;
+text-align: center;
+font-family: Red Hat Text;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.footer-section {
+    color: #675AF9;
+font-family: Red Hat Text;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.footer-content {
+    color: #081114;
+font-family: Red Hat Text;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+}
+
+.footer-copyrights {
+    color: rgba(45, 46, 72, 0.60);
+text-align: center;
+font-family: Red Hat Text;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.navbar-background {
+    background: linear-gradient(221deg, rgba(138, 193, 250, 0.13) 18.93%, rgba(138, 193, 250, 0.25) 81.06%);
+}
+
+.end-block-bg {
+    background: linear-gradient(47deg, #5CAAFA 16.49%, #675AF9 100%);
+}

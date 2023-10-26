@@ -1,0 +1,187 @@
+
+/* Default styles for large screens */
+.privacyPolicyChild {
+  position: absolute;
+  top: 1319px;
+  left: 640px;
+  background-color: var(--color-white);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  width: 512px;
+  height: 512px;
+  display: none;
+}
+
+/* Medium-sized screens and above */
+@media (min-width: 768px) {
+  .privacyPolicyChild {
+    top: 20%; /* Adjust the top position as needed */
+    left: 10%; /* Adjust the left position as needed */
+    width: 80%; /* Adjust the width as needed */
+    height: auto; /* Use auto height for responsiveness */
+    max-height: 512px; /* Limit the max height if necessary */
+    display: block; /* Display the element on medium-sized screens and above */
+  }
+
+  .privacyPolicyInner,
+  .privacyPolicyItem {
+    top: 30%; /* Adjust the top position as needed */
+    left: 10%; /* Adjust the left position as needed */
+    width: 80%; /* Adjust the width as needed */
+    height: auto; /* Use auto height for responsiveness */
+    max-height: 339.5px; /* Limit the max height if necessary */
+    display: block; /* Display the elements on medium-sized screens and above */
+  }
+
+  .thisPrivacyPolicyContainer {
+    top: 5%; /* Adjust the top position as needed */
+    left: 5%; /* Adjust the left position as needed */
+    width: 90%; /* Adjust the width as needed */
+    height: auto; /* Use auto height for responsiveness */
+    max-height: 1770px; /* Limit the max height if necessary */
+  }
+}
+
+/* Small screens and above */
+@media (min-width: 576px) {
+  .privacyPolicy1 {
+    top: 184px;
+    left: calc(50% - 479px);
+    letter-spacing: 0.02em;
+    display: inline-block;
+    font-family: var(--h1);
+    width: 100%; /* Adjust the width as needed for responsiveness */
+    max-width: 958px; /* Limit the max width if necessary */
+  }
+}
+
+/* Extra small screens and above */
+@media (min-width: 375px) {
+  .privacyPolicy {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; /* Use auto height for responsiveness */
+    max-height: 7650px; /* Limit the max height if necessary */
+  }
+}
+
+
+
+.privacyPolicyInner,
+.privacyPolicyItem {
+  position: absolute;
+  top: 1405px;
+  left: 725px;
+  width: 169px;
+  height: 339.5px;
+  display: none;
+}
+.privacyPolicyInner {
+  top: 1744.5px;
+  left: 1074px;
+}
+.thisPrivacyPolicy {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  line-height: 150%;
+}
+.interpretationAndDefinitions1 {
+  font-size: var(--font-size-17xl);
+  font-family: var(--s-body);
+}
+.interpretationAndDefinitions {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+}
+.definitions,
+.interpretation1 {
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-montserrat);
+}
+.definitions {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+}
+.account {
+  font-family: var(--s-body);
+}
+.companyReferredToAsEither {
+  margin-bottom: 16px;
+}
+.r {
+  font-size: var(--font-size-5xl);
+}
+.usingTheService {
+  font-size: var(--s-body-size);
+}
+.youMeansTheIndividualAcces {
+  line-height: 150%;
+}
+.accountMeansAUniqueAccount {
+  margin: 0;
+  padding-left: var(--padding-5xl);
+}
+
+.thisPrivacyPolicyContainer {
+  position: absolute;
+  top: 64px;
+  left: 161px;
+  display: inline-block;
+  width: 958px;
+  height: 1770px;
+}
+.collectingAndUsingYourPers {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  font-size: var(--font-size-17xl);
+}
+.useOfCookies {
+  color: var(--color-royalblue);
+}
+.collectingAndUsingContainer {
+  position: absolute;
+  top: 1200px;
+  left: 161px;
+  display: inline-block;
+  width: 958px;
+  height: 9251px;
+}
+
+.privacyPolicy1 {
+  position: absolute;
+  top: 184px;
+  left: calc(50% - 479px);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--h1);
+  width: 958px;
+}
+
+
+.privacyPolicy {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 7650px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--s-body-size);
+  color: var(--color-black);
+  font-family: var(--s-body);
+}
+
+
+
+
+.privacyPolicyWithoutHeight {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--s-body-size);
+  color: var(--color-black);
+  font-family: var(--s-body);
+}

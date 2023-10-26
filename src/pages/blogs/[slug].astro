@@ -1,0 +1,41 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import "../../styles/Theme.css";
+import "../../styles/Diagonals.css";
+import "../../styles/styles.css";
+import { Navbar } from "../../components/Navbar.jsx";
+import { Footer } from "../../components/Footer.jsx";
+const { slug } = Astro.params;
+
+let res = await fetch(
+  `https://blog-wordpress.dpdzero.com/wp-json/wp/v2/posts?slug=${slug}`
+);
+let [post] = await res.json();
+
+// The getStaticPaths() is required for static Astro sites.
+// If using SSR, you will not need this function.
+export async function getStaticPaths() {
+  let data = await fetch(
+    "https://blog-wordpress.dpdzero.com/wp-json/wp/v2/posts"
+  );
+  let posts = await data.json();
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post: post },
+  }));
+}
+---
+
+<Layout title={post.title.rendered}>
+  <Navbar gradientBg={true} pageHeader={null} client:load />
+  <div class="flex items-center justify-center px-4 bg-gray-100 py-10">
+    <div class="max-w-3xl prose prose-blue">
+      <h1>{post.title.rendered}</h1>
+      <article>
+        <Fragment set:html={post.content.rendered} />
+      </article>
+    </div>
+  </div>
+</Layout>

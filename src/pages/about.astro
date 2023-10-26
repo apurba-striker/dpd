@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Heros } from "../components/Heros";
+import { Banner } from "../components/Banner.jsx";
+import { Partner } from "../components/Partner.jsx";
+
+import { Founder } from "../components/Founder.jsx";
+import { Carreer } from "../components/Carreer.jsx";
+
+import { Footer } from "../components/Footer.jsx";
+
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+import "../styles/styles.css";
+import "../styles/group.module.css";
+---
+
+<Layout title="About us - DPDzero">
+  <Heros client:load />
+  <Banner client:load />
+  <Partner client:load />
+  <Founder client:load />
+  <Carreer client:load />
+  <Footer client:load />
+</Layout>

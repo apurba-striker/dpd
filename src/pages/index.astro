@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import { Hero } from "../components/Hero.jsx";
+
+import { Features1 } from "../components/Features1.jsx";
+import { Features2 } from "../components/Features2.jsx";
+import { Features3 } from "../components/Features3.jsx";
+import { Block } from "../components/Block.jsx";
+import { Testimonials } from "../components/Testimonials.jsx";
+import { Stats } from "../components/Stats.jsx";
+import { Brand } from "../components/Brand.jsx";
+
+
+
+import { Footer } from "../components/Footer.jsx";
+
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+import "../styles/styles.css";
+---
+
+<Layout title="DPDZero">
+  <Hero client:load /> 
+  <Brand client:load />
+  <Features1 client:load />
+  <Features2 client:load />
+  <Features3 client:load />
+  <Stats client:only />
+  <Testimonials client:load />
+  <Block client:load />
+  <Footer client:load /> 
+</Layout>

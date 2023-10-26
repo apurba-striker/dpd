@@ -1,0 +1,83 @@
+.groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #675af9;
+    width: 170px;
+    height: 144px;
+  }
+  .groupInner,
+  .groupItem,
+  .rectangleDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #efebff;
+    width: 121.92px;
+    height: 24px;
+  }
+  .groupInner,
+  .rectangleDiv {
+    top: 36px;
+    background-color: #fff;
+  }
+  .rectangleDiv {
+    top: 72px;
+    background-color: #e6e3ff;
+  }
+  .groupWrapper,
+  .rectangleGroup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 121.92px;
+    height: 96px;
+  }
+  .groupWrapper {
+    top: 24px;
+    left: 24px;
+  }
+  .lineIcon,
+  .rectangleParent {
+    position: absolute;
+    top: 267px;
+    left: 314px;
+    width: 170px;
+    height: 144px;
+  }
+  .lineIcon {
+    top: 103.45px;
+    left: 170.56px;
+    width: 141.25px;
+    height: 223.15px;
+    object-fit: cover;
+  }
+  .groupChild1,
+  .groupIcon,
+  .vectorIcon {
+    position: absolute;
+    top: 109.95px;
+    left: 77.58px;
+    width: 89.73px;
+    height: 221.11px;
+    object-fit: cover;
+  }
+  .groupChild1,
+  .groupIcon {
+    top: 329px;
+    left: 0;
+    width: 204px;
+    height: 165px;
+  }
+  .groupChild1 {
+    top: 0;
+    left: 103px;
+    width: 114px;
+    height: 114px;
+  }
+  .groupParent {
+    position: relative;
+    width: 100%;
+    height: 494px;
+  }
+  
